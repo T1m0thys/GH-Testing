@@ -1,0 +1,22 @@
+# Adding Testing to Grasshopper Plugin from template
+    - References:
+        - [Nugets](https://www.nuget.org/profiles/McNeel)
+            - & Associated Project Files
+        - [Plugin]()
+        - [Test Procedure]()
+        - [Test Example Reference Project]()
+    - Setup:
+        - HP ZBook Fury 12 G9
+        - 12thGen i9, 32GB Ram
+        - Win 11 Enterprise
+        - VS Professional
+            - VS Testing with verbose logging
+            - ReSharper Testing Addon
+        - RH Student License
+ ## Workflow
+    - Start Git source tracking
+    - ...
+    - Download [Grasshopper Plugin Template](https://www.nuget.org/api/v2/package/Rhino.Templates/8.0.0)
+    - Start new Project: GHPluginRH8
+        - based on: Grasshopper Assembly for Rhino 3D (C#)
+    - ...
