@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-
-namespace GHPluginRH8Tests1
+﻿namespace GHPluginRH8Tests1
 {
     [SetUpFixture]
     public sealed class SetupFixture : Rhino.Testing.Fixtures.RhinoSetupFixture

@@ -6,25 +6,26 @@
 		<!--<Nullable>enable</Nullable>-->
 		<IsPackable>false</IsPackable>
 		<IsTestProject>true</IsTestProject>
-
+		<!--Add Rhino Directory Variable-->
+		<RhinoSystemDirectory>C:\Program Files\Rhino 8\System</RhinoSystemDirectory>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="coverlet.collector" Version="6.0.2">
+		<!--<PackageReference Include="coverlet.collector" Version="6.0.2">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		</PackageReference>
+		</PackageReference>-->
 		<!--Autoupdate-->
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.*" />
-		<PackageReference Include="MSTest.TestAdapter" Version="3.5.2" />
-		<PackageReference Include="MSTest.TestFramework" Version="3.5.2" />
+		<!--<PackageReference Include="MSTest.TestAdapter" Version="3.5.2" />-->
+		<!--<PackageReference Include="MSTest.TestFramework" Version="3.5.2" />-->
 		<!--Autoupdate-->
 		<PackageReference Include="NUnit" Version="3.*" />
 		<PackageReference Include="NUnit3TestAdapter" Version="4.*" />
-		<!--Add local RhinoCommon-->
-		<Reference Include="$(RhinoSystemDirectory)\netcore\RhinoCommon.dll" Private="False" />
 		<!--Add Rhino Testing Nuget-->
 		<PackageReference Include="Rhino.Testing" Version="8.0.17-beta" />
+		<!--Add local RhinoCommon-->
+		<Reference Include="$(RhinoSystemDirectory)\netcore\RhinoCommon.dll" Private="False" />
 	</ItemGroup>
 
 	<ItemGroup>

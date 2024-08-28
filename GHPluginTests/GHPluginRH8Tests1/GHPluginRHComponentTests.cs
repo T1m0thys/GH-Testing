@@ -1,12 +1,12 @@
-﻿using NUnit.Framework;
-using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
+﻿using NUnit.Framework.Internal;
+using Rhino.Testing.Fixtures;
 
 namespace GHPluginRH8.Tests
 {
-    [TestFixture()]
-    public class GHPluginRHComponentTests
+    [TestFixture]
+    public sealed class GHPluginRHComponentTests : RhinoTestFixture
     {
-        [Test()]
+        [Test]
         public void CreateSpiralTest()
         {
             Assert.Fail();
