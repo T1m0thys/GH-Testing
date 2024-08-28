@@ -1,8 +1,6 @@
-using Grasshopper;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
 using System;
-using System.Collections.Generic;
 
 namespace GHPluginRH8
 {
@@ -101,7 +99,7 @@ namespace GHPluginRH8
             DA.SetData(0, spiral);
         }
 
-        Curve CreateSpiral(Plane plane, double r0, double r1, Int32 turns)
+        public Curve CreateSpiral(Plane plane, double r0, double r1, Int32 turns)
         {
             Line l0 = new Line(plane.Origin + r0 * plane.XAxis, plane.Origin + r1 * plane.XAxis);
             Line l1 = new Line(plane.Origin - r0 * plane.XAxis, plane.Origin - r1 * plane.XAxis);

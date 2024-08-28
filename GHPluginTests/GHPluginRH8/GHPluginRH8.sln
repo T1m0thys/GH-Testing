@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHPluginRH8", "GHPluginRH8.csproj", "{F8265A65-4888-4AFB-8041-8BBF67C3E364}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHPluginRH8Tests1", "..\GHPluginRH8Tests1\GHPluginRH8Tests1.csproj", "{AEC79427-86FC-46A8-B171-5A078952D642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F8265A65-4888-4AFB-8041-8BBF67C3E364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8265A65-4888-4AFB-8041-8BBF67C3E364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8265A65-4888-4AFB-8041-8BBF67C3E364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC79427-86FC-46A8-B171-5A078952D642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC79427-86FC-46A8-B171-5A078952D642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC79427-86FC-46A8-B171-5A078952D642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC79427-86FC-46A8-B171-5A078952D642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
