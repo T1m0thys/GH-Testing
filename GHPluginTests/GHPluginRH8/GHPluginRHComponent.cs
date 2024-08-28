@@ -4,7 +4,7 @@ using System;
 
 namespace GHPluginRH8
 {
-    public class GHPluginRHComponent : GH_Component
+    public class GhPluginRhComponent : GH_Component
     {
         /// <summary>
         /// Each implementation of GH_Component must provide a public 
@@ -13,7 +13,7 @@ namespace GHPluginRH8
         /// Subcategory the panel. If you use non-existing tab or panel names, 
         /// new tabs/panels will automatically be created.
         /// </summary>
-        public GHPluginRHComponent()
+        public GhPluginRhComponent()
           : base("GH Template - Component to test", "ASpi",
             "Construct an Archimedean, or arithmetic, spiral given its radii and number of turns.",
             "Curve", "Primitive")
@@ -56,9 +56,9 @@ namespace GHPluginRH8
         /// <summary>
         /// This is the method that actually does the work.
         /// </summary>
-        /// <param name="DA">The DA object can be used to retrieve data from input parameters and 
+        /// <param name="da">The DA object can be used to retrieve data from input parameters and 
         /// to store data in output parameters.</param>
-        protected override void SolveInstance(IGH_DataAccess DA)
+        protected override void SolveInstance(IGH_DataAccess da)
         {
             // First, we need to retrieve all data from the input parameters.
             // We'll start by declaring variables and assigning them starting values.
@@ -69,10 +69,10 @@ namespace GHPluginRH8
 
             // Then we need to access the input parameters individually. 
             // When data cannot be extracted from a parameter, we should abort this method.
-            if (!DA.GetData(0, ref plane)) return;
-            if (!DA.GetData(1, ref radius0)) return;
-            if (!DA.GetData(2, ref radius1)) return;
-            if (!DA.GetData(3, ref turns)) return;
+            if (!da.GetData(0, ref plane)) return;
+            if (!da.GetData(1, ref radius0)) return;
+            if (!da.GetData(2, ref radius1)) return;
+            if (!da.GetData(3, ref turns)) return;
 
             // We should now validate the data and warn the user if invalid data is supplied.
             if (radius0 < 0.0)
@@ -96,7 +96,7 @@ namespace GHPluginRH8
             Curve spiral = CreateSpiral(plane, radius0, radius1, turns);
 
             // Finally assign the spiral to the output parameter.
-            DA.SetData(0, spiral);
+            da.SetData(0, spiral);
         }
 
         public Curve CreateSpiral(Plane plane, double r0, double r1, Int32 turns)
