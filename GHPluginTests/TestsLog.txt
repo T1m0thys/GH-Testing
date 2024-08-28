@@ -1,0 +1,245 @@
+16:44:02:872	[28-Aug-24 4:44:02.871 PM]  Enqueue operation 'OpenOperation', hashcode:9725918 
+16:44:03:003	[28-Aug-24 4:44:02.872 PM]  Operation left in the the queue: 1
+16:44:03:003	[28-Aug-24 4:44:02.872 PM]  	'OpenOperation', hashcode:9725918
+16:44:03:003	[28-Aug-24 4:44:02.872 PM]  
+16:44:03:003	
+16:44:03:003	[28-Aug-24 4:44:02.873 PM]  Operation Dequeue : 'OpenOperation'
+16:44:03:003	[28-Aug-24 4:44:02.942 PM]  Test data store opened in 0.032 sec.
+16:44:03:003	[28-Aug-24 4:44:02.959 PM]  Current list of test runtime environments: < Local Windows Environment >
+16:44:03:398	[28-Aug-24 4:44:03.086 PM]  Initializing real time test discovery
+16:44:03:398	[28-Aug-24 4:44:03.101 PM]  Initializing real time test discovery service
+16:44:03:398	[28-Aug-24 4:44:03.125 PM]  Initialized real time test discovery service out of process
+16:44:03:398	[28-Aug-24 4:44:03.128 PM]  Verifying Solution load status...
+16:44:03:398	[28-Aug-24 4:44:03.139 PM]  Start updating all containers.
+16:44:03:398	[28-Aug-24 4:44:03.139 PM]  Updating containers from Microsoft.VisualStudio.TestWindow.Client.TestContainer.ProjectOutputContainerDiscoverer.
+16:44:03:462	[28-Aug-24 4:44:03.400 PM]  Loading Project f8265a65-4888-4afb-8041-8bbf67c3e364 [2] => 
+16:44:03:462	===
+16:44:03:462	Id: f8265a65-4888-4afb-8041-8bbf67c3e364
+16:44:03:462	ProjectFilePath: C:\...\GHPluginTests\GHPluginRH8\GHPluginRH8.csproj
+16:44:03:462	DefaultOutputPath: C:\...\GHPluginTests\GHPluginRH8\bin\Debug\net7.0-windows\GHPluginRH8.gha
+16:44:03:462	DefaultTargetFramework: net7.0
+16:44:03:462	ProjectName: GHPluginRH8
+16:44:03:462	DefaultCapabilities: Managed,CPS,CSharp,SupportsHotReload
+16:44:03:462	IsAppContainer: False
+16:44:03:462	IsCpsProject: True
+16:44:03:462	IsMiscellaneous: False
+16:44:03:462	HasTestContainerCapability: C:\...\GHPluginTests\GHPluginRH8\bin\Debug\net7.0-windows\GHPluginRH8.gha: False
+16:44:03:462	HasTestingPlatformServerCapability: C:\...\GHPluginTests\GHPluginRH8\bin\Debug\net7.0-windows\GHPluginRH8.gha: False
+16:44:03:462	IsCSharpOrVBProject: True
+16:44:03:462	
+16:44:03:462	[28-Aug-24 4:44:03.414 PM]  Loading Project aec79427-86fc-46a8-b171-5a078952d642 [2] => 
+16:44:03:462	===
+16:44:03:462	Id: aec79427-86fc-46a8-b171-5a078952d642
+16:44:03:462	ProjectFilePath: C:\...\GHPluginTests\GHPluginRH8Tests1\GHPluginRH8Tests.csproj
+16:44:03:462	DefaultOutputPath: C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:03:462	DefaultTargetFramework: net7.0
+16:44:03:462	ProjectName: GHPluginRH8Tests
+16:44:03:462	DefaultCapabilities: Managed,CPS,TestContainer,CSharp,SupportsHotReload
+16:44:03:462	IsAppContainer: False
+16:44:03:462	IsCpsProject: True
+16:44:03:462	IsMiscellaneous: False
+16:44:03:462	HasTestContainerCapability: C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll: True
+16:44:03:462	HasTestingPlatformServerCapability: C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll: False
+16:44:03:462	IsCSharpOrVBProject: True
+16:44:03:462	
+16:44:03:462	[28-Aug-24 4:44:03.415 PM]  test container discoverer executor://projectoutputcontainerdiscoverer/v1, discovered 1 containers
+16:44:03:462	[28-Aug-24 4:44:03.416 PM]  Containers from 'Microsoft.VisualStudio.TestWindow.Client.TestContainer.ProjectOutputContainerDiscoverer' :
+16:44:03:462	[28-Aug-24 4:44:03.416 PM]  	C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:03:462	[28-Aug-24 4:44:03.422 PM]  Updating containers from Microsoft.VisualStudio.JavaScript.TestAdapter.TestContainerDiscoverer.
+16:44:03:462	[28-Aug-24 4:44:03.455 PM]  Starting real time test discovery for solution
+16:44:03:462	[28-Aug-24 4:44:03.461 PM]  test container discoverer executor://nodejstestexecutor/v2, discovered 0 containers
+16:44:03:462	[28-Aug-24 4:44:03.461 PM]  No containers found from 'Microsoft.VisualStudio.JavaScript.TestAdapter.TestContainerDiscoverer' :
+16:44:03:462	[28-Aug-24 4:44:03.461 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.OrderedTestContainerDiscoverer.
+16:44:03:600	[28-Aug-24 4:44:03.474 PM]  Starting bulk analysis
+16:44:03:600	[28-Aug-24 4:44:03.482 PM]  Suspending incremental analysis
+16:44:03:600	[28-Aug-24 4:44:03.507 PM]  Starting real time test discovery service cache initialization
+16:44:03:600	[28-Aug-24 4:44:03.513 PM]  test container discoverer executor://orderedtestadapter/v1, discovered 0 containers
+16:44:03:600	[28-Aug-24 4:44:03.513 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.OrderedTestContainerDiscoverer' :
+16:44:03:600	[28-Aug-24 4:44:03.513 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.GenericTestContainerDiscoverer.
+16:44:03:600	[28-Aug-24 4:44:03.543 PM]  Real time test discovery service cache initialization complete
+16:44:03:602	[28-Aug-24 4:44:03.545 PM]  test container discoverer executor://generictestadapter/v1, discovered 0 containers
+16:44:03:602	[28-Aug-24 4:44:03.545 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.GenericTestContainerDiscoverer' :
+16:44:03:602	[28-Aug-24 4:44:03.545 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.WebTestContainerDiscoverer.
+16:44:03:602	[28-Aug-24 4:44:03.558 PM]  Starting real time test discovery service cache cleanup
+16:44:03:602	[28-Aug-24 4:44:03.563 PM]  Real time test discovery service cache cleanup complete
+16:44:03:602	[28-Aug-24 4:44:03.564 PM]  Bulk analyzing new solution snapshot (Intellisense: Complete)
+16:44:03:602	[28-Aug-24 4:44:03.564 PM]  test container discoverer executor://webtestadapter/v1, discovered 0 containers
+16:44:03:602	[28-Aug-24 4:44:03.564 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.WebTestContainerDiscoverer' :
+16:44:03:602	[28-Aug-24 4:44:03.565 PM]  Completed updating containers.
+16:44:03:602	[28-Aug-24 4:44:03.565 PM]  Syncing containers with the test store.
+16:44:03:602	[28-Aug-24 4:44:03.570 PM]  Bulk analyzing project GHPluginRH8
+16:44:03:602	[28-Aug-24 4:44:03.588 PM]  Removing container sources 'C:\...\GHPluginTests\GHPluginRH8\bin\Debug\net48\GHPluginRH8.gha' from the test store.
+16:44:03:602	[28-Aug-24 4:44:03.588 PM]  Removing containers C:\...\GHPluginTests\GHPluginRH8\bin\Debug\net48\GHPluginRH8.gha.
+16:44:03:602	[28-Aug-24 4:44:03.599 PM]  Bulk analyzing project GHPluginRH8Tests
+16:44:03:665	[28-Aug-24 4:44:03.603 PM]  Start updating all containers.
+16:44:03:665	[28-Aug-24 4:44:03.603 PM]  Updating containers from Microsoft.VisualStudio.TestWindow.Client.TestContainer.ProjectOutputContainerDiscoverer.
+16:44:03:665	[28-Aug-24 4:44:03.604 PM]  Triggering auto-discovery
+16:44:03:665	[28-Aug-24 4:44:03.604 PM]  Enqueue operation 'DiscoverAllOperation', hashcode:64806058 
+16:44:03:665	[28-Aug-24 4:44:03.604 PM]  Operation left in the the queue: 1
+16:44:03:665	[28-Aug-24 4:44:03.604 PM]  	'DiscoverAllOperation', hashcode:64806058
+16:44:03:665	[28-Aug-24 4:44:03.605 PM]  
+16:44:03:665	
+16:44:03:665	[28-Aug-24 4:44:03.605 PM]  Operation Dequeue : 'DiscoverAllOperation'
+16:44:03:665	[28-Aug-24 4:44:03.606 PM]  test container discoverer executor://projectoutputcontainerdiscoverer/v1, discovered 1 containers
+16:44:03:665	[28-Aug-24 4:44:03.606 PM]  Containers from 'Microsoft.VisualStudio.TestWindow.Client.TestContainer.ProjectOutputContainerDiscoverer' :
+16:44:03:665	[28-Aug-24 4:44:03.606 PM]  	C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:03:665	[28-Aug-24 4:44:03.607 PM]  Updating containers from Microsoft.VisualStudio.JavaScript.TestAdapter.TestContainerDiscoverer.
+16:44:03:665	[28-Aug-24 4:44:03.611 PM]  test container discoverer executor://nodejstestexecutor/v2, discovered 0 containers
+16:44:03:665	[28-Aug-24 4:44:03.611 PM]  No containers found from 'Microsoft.VisualStudio.JavaScript.TestAdapter.TestContainerDiscoverer' :
+16:44:03:665	[28-Aug-24 4:44:03.611 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.OrderedTestContainerDiscoverer.
+16:44:03:665	[28-Aug-24 4:44:03.624 PM]  test container discoverer executor://orderedtestadapter/v1, discovered 0 containers
+16:44:03:665	[28-Aug-24 4:44:03.624 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.OrderedTestContainerDiscoverer' :
+16:44:03:665	[28-Aug-24 4:44:03.625 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.GenericTestContainerDiscoverer.
+16:44:03:665	[28-Aug-24 4:44:03.625 PM]  test container discoverer executor://generictestadapter/v1, discovered 0 containers
+16:44:03:665	[28-Aug-24 4:44:03.625 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.GenericTestContainerDiscoverer' :
+16:44:03:665	[28-Aug-24 4:44:03.625 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.WebTestContainerDiscoverer.
+16:44:03:665	[28-Aug-24 4:44:03.626 PM]  test container discoverer executor://webtestadapter/v1, discovered 0 containers
+16:44:03:665	[28-Aug-24 4:44:03.626 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.WebTestContainerDiscoverer' :
+16:44:03:665	[28-Aug-24 4:44:03.626 PM]  Completed updating containers.
+16:44:03:666	[28-Aug-24 4:44:03.629 PM]  Start updating 1 containers.
+16:44:03:666	[28-Aug-24 4:44:03.632 PM]  Updating container C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll.
+16:44:03:666	[28-Aug-24 4:44:03.633 PM]  Successfully refreshed container: C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:03:666	[28-Aug-24 4:44:03.633 PM]  Completed updating containers.
+16:44:03:666	[28-Aug-24 4:44:03.634 PM]  DiscoveryOperation<DiscoverAllOperation> Changed container count is 1
+16:44:03:666	[28-Aug-24 4:44:03.657 PM]  Bulk analysis discovered tests in project GHPluginRH8Tests
+16:44:03:734	[28-Aug-24 4:44:03.731 PM]  Discovering the following containers :
+16:44:03:734	[28-Aug-24 4:44:03.731 PM]  	C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:03:796	[28-Aug-24 4:44:03.740 PM]  UnitTestExtensionDiscoverer: Found the following Unit Test VSIX extensions: C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\PROFESSIONAL\COMMON7\IDE\EXTENSIONS\MICROSOFT\JAVASCRIPT\Microsoft.VisualStudio.JavaScript.TestAdapter.dll
+16:44:03:857	[28-Aug-24 4:44:03.798 PM]  UnitTestExtensionDiscoverer: Found the following Nuget Test Adapter extensions: C:\...\.nuget\packages\nunit3testadapter\4.6.0\build\net462\NUnit3.TestAdapter.dll
+16:44:03:857		C:\...\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\NUnit3.TestAdapter.dll
+16:44:03:857	[28-Aug-24 4:44:03.805 PM]  Initializing test platform with extensions: C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\PROFESSIONAL\COMMON7\IDE\EXTENSIONS\MICROSOFT\JAVASCRIPT\Microsoft.VisualStudio.JavaScript.TestAdapter.dll
+16:44:03:857		C:\...\.nuget\packages\nunit3testadapter\4.6.0\build\net462\NUnit3.TestAdapter.dll
+16:44:03:857		C:\...\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\NUnit3.TestAdapter.dll
+16:44:03:857	[28-Aug-24 4:44:03.812 PM]  Test assembly C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll references test framework: Nunit
+16:44:03:857	[28-Aug-24 4:44:03.833 PM]  ========== Starting test discovery ==========
+16:44:03:857	[28-Aug-24 4:44:03.836 PM]  Project GHPluginRH8Tests references test adapter: NUnit3TestAdapter, version 4.6.0
+16:44:03:857	[28-Aug-24 4:44:03.836 PM]  Project GHPluginRH8Tests references test adapter: NUnit3TestAdapter, version 4.6.0
+16:44:03:922	[28-Aug-24 4:44:03.870 PM]  Grouped C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll : (VsTestConsoleRunner, , , False)
+16:44:03:922	[28-Aug-24 4:44:03.872 PM]  Test discovery settings for C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll:
+16:44:03:922	 <RunSettings>
+16:44:03:922	  <RunConfiguration>
+16:44:03:922	    <ResultsDirectory>C:\...\GHPluginTests\GHPluginRH8\TestResults</ResultsDirectory>
+16:44:03:922	    <SolutionDirectory>C:\...\GHPluginTests\GHPluginRH8\</SolutionDirectory>
+16:44:03:922	    <MaxCpuCount>0</MaxCpuCount>
+16:44:03:922	    <EnvironmentVariables>
+16:44:03:922	      <VSTEST_BACKGROUND_DISCOVERY>1</VSTEST_BACKGROUND_DISCOVERY>
+16:44:03:922	    </EnvironmentVariables>
+16:44:03:922	    <CollectSourceInformation>False</CollectSourceInformation>
+16:44:03:922	  </RunConfiguration>
+16:44:03:922	</RunSettings>.
+16:44:03:922	[28-Aug-24 4:44:03.875 PM]  Test platform diagnostic logs disabled.
+16:44:04:170	[28-Aug-24 4:44:04.167 PM]  Bulk analysis complete
+16:44:04:234	[28-Aug-24 4:44:04.171 PM]  Activating incremental analysis
+16:44:04:234	[28-Aug-24 4:44:04.173 PM]  Registered incremental analyzer
+16:44:04:924	[28-Aug-24 4:44:04.902 PM]  Interrupt: Enqueueing RunAllOperation
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  Enqueue operation 'RunAllOperation', hashcode:65683030 
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  Operation left in the the queue: 1
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  	'RunAllOperation', hashcode:65683030
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  
+16:44:04:924	
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  Interrupt: Cancelling DiscoverAllOperation
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  Aborting test discovery because a test run was requested.
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  Interrupt: Enqueueing DiscoverAllOperation
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  Enqueue operation 'DiscoverAllOperation', hashcode:59537798 
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  Operation left in the the queue: 2
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  	'RunAllOperation', hashcode:65683030
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  	'DiscoverAllOperation', hashcode:59537798
+16:44:04:924	[28-Aug-24 4:44:04.903 PM]  
+16:44:04:924	
+16:44:05:564	[28-Aug-24 4:44:05.555 PM] [Error] Failed to create CoreCLR, HRESULT: 0x80070057
+16:44:05:630	[28-Aug-24 4:44:05.629 PM] [Error] Microsoft.VisualStudio.TestPlatform.ObjectModel.TestPlatformException: Testhost process for source(s) 'C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll' exited with error: Failed to create CoreCLR, HRESULT: 0x80070057
+16:44:05:630	. Please check the diagnostic logs for more information.
+16:44:05:630	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyOperationManager.ThrowOnTestHostExited(IEnumerable`1 sources, Boolean testHostExited) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyOperationManager.cs:line 520
+16:44:05:630	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyOperationManager.SetupChannel(IEnumerable`1 sources, String runSettings) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyOperationManager.cs:line 294
+16:44:05:630	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyDiscoveryManager.InitializeDiscovery(DiscoveryCriteria discoveryCriteria, ITestDiscoveryEventsHandler2 eventHandler, Boolean skipDefaultAdapters) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyDiscoveryManager.cs:line 149
+16:44:05:710	[28-Aug-24 4:44:05.708 PM]  ========== Test discovery aborted: 0 Tests found in 1.9 sec ==========
+16:44:05:801	[28-Aug-24 4:44:05.729 PM]  Operation Dequeue : 'RunAllOperation'
+16:44:05:801	[28-Aug-24 4:44:05.729 PM]  Operation left in the the queue: 1
+16:44:05:801	[28-Aug-24 4:44:05.729 PM]  	'DiscoverAllOperation', hashcode:59537798
+16:44:05:801	[28-Aug-24 4:44:05.729 PM]  
+16:44:05:801	
+16:44:08:146	[28-Aug-24 4:44:07.981 PM]  Start building all containers.
+16:44:08:146	[28-Aug-24 4:44:07.983 PM]  Triggering full solution build.
+16:44:08:298	[28-Aug-24 4:44:08.157 PM]  Completed building containers.
+16:44:08:298	[28-Aug-24 4:44:08.158 PM]  Start updating all containers.
+16:44:08:298	[28-Aug-24 4:44:08.158 PM]  Updating containers from Microsoft.VisualStudio.TestWindow.Client.TestContainer.ProjectOutputContainerDiscoverer.
+16:44:08:390	[28-Aug-24 4:44:08.389 PM]  test container discoverer executor://projectoutputcontainerdiscoverer/v1, discovered 1 containers
+16:44:08:390	[28-Aug-24 4:44:08.389 PM]  Containers from 'Microsoft.VisualStudio.TestWindow.Client.TestContainer.ProjectOutputContainerDiscoverer' :
+16:44:08:390	[28-Aug-24 4:44:08.389 PM]  	C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:08:390	[28-Aug-24 4:44:08.390 PM]  Updating containers from Microsoft.VisualStudio.JavaScript.TestAdapter.TestContainerDiscoverer.
+16:44:08:442	[28-Aug-24 4:44:08.392 PM]  test container discoverer executor://nodejstestexecutor/v2, discovered 0 containers
+16:44:08:442	[28-Aug-24 4:44:08.392 PM]  No containers found from 'Microsoft.VisualStudio.JavaScript.TestAdapter.TestContainerDiscoverer' :
+16:44:08:442	[28-Aug-24 4:44:08.392 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.OrderedTestContainerDiscoverer.
+16:44:08:442	[28-Aug-24 4:44:08.401 PM]  test container discoverer executor://orderedtestadapter/v1, discovered 0 containers
+16:44:08:442	[28-Aug-24 4:44:08.401 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.OrderedTestContainerDiscoverer' :
+16:44:08:442	[28-Aug-24 4:44:08.401 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.GenericTestContainerDiscoverer.
+16:44:08:442	[28-Aug-24 4:44:08.404 PM]  test container discoverer executor://generictestadapter/v1, discovered 0 containers
+16:44:08:442	[28-Aug-24 4:44:08.404 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.GenericTestContainerDiscoverer' :
+16:44:08:442	[28-Aug-24 4:44:08.404 PM]  Updating containers from Microsoft.VisualStudio.MSTest.TestWindow.WebTestContainerDiscoverer.
+16:44:08:442	[28-Aug-24 4:44:08.406 PM]  test container discoverer executor://webtestadapter/v1, discovered 0 containers
+16:44:08:442	[28-Aug-24 4:44:08.406 PM]  No containers found from 'Microsoft.VisualStudio.MSTest.TestWindow.WebTestContainerDiscoverer' :
+16:44:08:442	[28-Aug-24 4:44:08.406 PM]  Completed updating containers.
+16:44:08:442	[28-Aug-24 4:44:08.406 PM]  DiscoveryOperation<RunAllOperation> Changed container count is 1
+16:44:08:442	[28-Aug-24 4:44:08.427 PM]  Test run animation has started.
+16:44:08:506	[28-Aug-24 4:44:08.441 PM]  Test run progress has started.
+16:44:08:506	[28-Aug-24 4:44:08.467 PM]  Discovering the following containers :
+16:44:08:506	[28-Aug-24 4:44:08.467 PM]  	C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:08:506	[28-Aug-24 4:44:08.476 PM]  Starting test discovery for requested test run
+16:44:08:506	[28-Aug-24 4:44:08.484 PM]  ========== Starting test discovery ==========
+16:44:08:506	[28-Aug-24 4:44:08.486 PM]  Grouped C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll : (VsTestConsoleRunner, , , False)
+16:44:08:506	[28-Aug-24 4:44:08.489 PM]  Test discovery settings for C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll:
+16:44:08:506	 <RunSettings>
+16:44:08:506	  <RunConfiguration>
+16:44:08:506	    <ResultsDirectory>C:\...\GHPluginTests\GHPluginRH8\TestResults</ResultsDirectory>
+16:44:08:506	    <SolutionDirectory>C:\...\GHPluginTests\GHPluginRH8\</SolutionDirectory>
+16:44:08:506	    <MaxCpuCount>0</MaxCpuCount>
+16:44:08:506	    <CollectSourceInformation>False</CollectSourceInformation>
+16:44:08:506	  </RunConfiguration>
+16:44:08:506	</RunSettings>.
+16:44:08:570	[28-Aug-24 4:44:08.507 PM]  Project GHPluginRH8Tests references test adapter: NUnit3TestAdapter, version 4.6.0
+16:44:08:570	[28-Aug-24 4:44:08.508 PM]  Project GHPluginRH8Tests references test adapter: NUnit3TestAdapter, version 4.6.0
+16:44:08:630	[28-Aug-24 4:44:08.608 PM] [Error] Failed to create CoreCLR, HRESULT: 0x80070057
+16:44:08:630	[28-Aug-24 4:44:08.616 PM] [Error] Microsoft.VisualStudio.TestPlatform.ObjectModel.TestPlatformException: Testhost process for source(s) 'C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll' exited with error: Failed to create CoreCLR, HRESULT: 0x80070057
+16:44:08:630	. Please check the diagnostic logs for more information.
+16:44:08:630	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyOperationManager.ThrowOnTestHostExited(IEnumerable`1 sources, Boolean testHostExited) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyOperationManager.cs:line 520
+16:44:08:630	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyOperationManager.SetupChannel(IEnumerable`1 sources, String runSettings) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyOperationManager.cs:line 294
+16:44:08:630	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyDiscoveryManager.InitializeDiscovery(DiscoveryCriteria discoveryCriteria, ITestDiscoveryEventsHandler2 eventHandler, Boolean skipDefaultAdapters) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyDiscoveryManager.cs:line 149
+16:44:08:630	[28-Aug-24 4:44:08.620 PM]  ========== Test discovery aborted: 0 Tests found in 133.7 ms ==========
+16:44:08:772	[28-Aug-24 4:44:08.770 PM]  Some tests from the test run selection will be executed by name.
+16:44:08:834	[28-Aug-24 4:44:08.774 PM]  ========== Starting test run ==========
+16:44:08:834	[28-Aug-24 4:44:08.799 PM]  Attachments processing not needed
+16:44:08:834	[28-Aug-24 4:44:08.824 PM]  ========== Test run aborted: 0 Tests (0 Passed, 0 Failed, 0 Skipped) run in < 1 ms ==========
+16:44:08:835	[28-Aug-24 4:44:08.827 PM]  Test run animation has stopped.
+16:44:08:835	[28-Aug-24 4:44:08.827 PM]  Test run progress has stopped.
+16:44:08:835	[28-Aug-24 4:44:08.832 PM]  Operation Dequeue : 'DiscoverAllOperation'
+16:44:08:955	[28-Aug-24 4:44:08.841 PM]  Start updating 1 containers.
+16:44:08:955	[28-Aug-24 4:44:08.841 PM]  Updating container C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll.
+16:44:08:955	[28-Aug-24 4:44:08.856 PM]  Successfully refreshed container: C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:08:955	[28-Aug-24 4:44:08.856 PM]  Completed updating containers.
+16:44:08:955	[28-Aug-24 4:44:08.856 PM]  DiscoveryOperation<DiscoverAllOperation> Changed container count is 1
+16:44:08:955	[28-Aug-24 4:44:08.861 PM]  Discovering the following containers :
+16:44:08:955	[28-Aug-24 4:44:08.861 PM]  	C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll
+16:44:08:955	[28-Aug-24 4:44:08.869 PM]  Resuming previously aborted test discovery
+16:44:08:955	[28-Aug-24 4:44:08.878 PM]  ========== Starting test discovery ==========
+16:44:08:955	[28-Aug-24 4:44:08.879 PM]  Grouped C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll : (VsTestConsoleRunner, , , False)
+16:44:08:955	[28-Aug-24 4:44:08.882 PM]  Test discovery settings for C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll:
+16:44:08:955	 <RunSettings>
+16:44:08:955	  <RunConfiguration>
+16:44:08:955	    <ResultsDirectory>C:\...\GHPluginTests\GHPluginRH8\TestResults</ResultsDirectory>
+16:44:08:955	    <SolutionDirectory>C:\...\GHPluginTests\GHPluginRH8\</SolutionDirectory>
+16:44:08:955	    <MaxCpuCount>0</MaxCpuCount>
+16:44:08:955	    <EnvironmentVariables>
+16:44:08:955	      <VSTEST_BACKGROUND_DISCOVERY>1</VSTEST_BACKGROUND_DISCOVERY>
+16:44:08:955	    </EnvironmentVariables>
+16:44:08:955	    <CollectSourceInformation>False</CollectSourceInformation>
+16:44:08:955	  </RunConfiguration>
+16:44:08:955	</RunSettings>.
+16:44:08:955	[28-Aug-24 4:44:08.898 PM]  Project GHPluginRH8Tests references test adapter: NUnit3TestAdapter, version 4.6.0
+16:44:08:955	[28-Aug-24 4:44:08.898 PM]  Project GHPluginRH8Tests references test adapter: NUnit3TestAdapter, version 4.6.0
+16:44:09:008	[28-Aug-24 4:44:08.989 PM] [Error] Failed to create CoreCLR, HRESULT: 0x80070057
+16:44:09:008	[28-Aug-24 4:44:08.999 PM] [Error] Microsoft.VisualStudio.TestPlatform.ObjectModel.TestPlatformException: Testhost process for source(s) 'C:\...\GHPluginTests\GHPluginRH8Tests1\bin\Debug\net7.0-windows\GHPluginRH8Tests.dll' exited with error: Failed to create CoreCLR, HRESULT: 0x80070057
+16:44:09:008	. Please check the diagnostic logs for more information.
+16:44:09:008	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyOperationManager.ThrowOnTestHostExited(IEnumerable`1 sources, Boolean testHostExited) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyOperationManager.cs:line 520
+16:44:09:008	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyOperationManager.SetupChannel(IEnumerable`1 sources, String runSettings) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyOperationManager.cs:line 294
+16:44:09:008	   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Client.ProxyDiscoveryManager.InitializeDiscovery(DiscoveryCriteria discoveryCriteria, ITestDiscoveryEventsHandler2 eventHandler, Boolean skipDefaultAdapters) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Client/ProxyDiscoveryManager.cs:line 149
+16:44:09:008	[28-Aug-24 4:44:09.002 PM]  ========== Test discovery aborted: 0 Tests found in 121.3 ms ==========
