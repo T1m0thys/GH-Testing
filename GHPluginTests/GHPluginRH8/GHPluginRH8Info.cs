@@ -5,7 +5,7 @@ using System.Drawing;
 
 namespace GHPluginRH8
 {
-    public class GHPluginRH8Info : GH_AssemblyInfo
+    public class GhPluginRh8Info : GH_AssemblyInfo
     {
         public override string Name => "GHPluginRH8";
 
