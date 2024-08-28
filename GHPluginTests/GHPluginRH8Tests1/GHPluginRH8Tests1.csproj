@@ -1,29 +1,43 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<!--<ImplicitUsings>enable</ImplicitUsings>-->
+		<!--<Nullable>enable</Nullable>-->
+		<IsPackable>false</IsPackable>
+		<IsTestProject>true</IsTestProject>
 
-    <IsPackable>false</IsPackable>
-    <IsTestProject>true</IsTestProject>
-  </PropertyGroup>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="coverlet.collector" Version="6.0.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
-    <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
-    <PackageReference Include="NUnit" Version="3.13.3" />
-    <PackageReference Include="NUnit3TestAdapter" Version="4.3.1" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="coverlet.collector" Version="6.0.2">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<!--Autoupdate-->
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.*" />
+		<PackageReference Include="MSTest.TestAdapter" Version="3.5.2" />
+		<PackageReference Include="MSTest.TestFramework" Version="3.5.2" />
+		<!--Autoupdate-->
+		<PackageReference Include="NUnit" Version="3.*" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.*" />
+		<!--Add local RhinoCommon-->
+		<Reference Include="$(RhinoSystemDirectory)\netcore\RhinoCommon.dll" Private="False" />
+		<!--Add Rhino Testing Nuget-->
+		<PackageReference Include="Rhino.Testing" Version="8.0.17-beta" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\GHPluginRH8\GHPluginRH8.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\GHPluginRH8\GHPluginRH8.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
-  </ItemGroup>
+	<ItemGroup>
+		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!--Add Testing.Config file to output-->
+		<None Update="Rhino.Testing.Configs.xml" CopyToOutputDirectory="always" />
+	</ItemGroup>
 
 </Project>

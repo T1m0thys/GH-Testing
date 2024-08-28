@@ -1,7 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net7.0;net48</TargetFrameworks>
+		<!--<TargetFrameworks>net7.0;net48</TargetFrameworks>-->
+		<!--Change to Match Testing Project Target-->
+		<TargetFramework>net7.0-windows</TargetFramework>
 		<Version>1.0</Version>
 		<Title>GHPluginRH8</Title>
 		<Description>Description of GHPluginRH8</Description>
