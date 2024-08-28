@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net7.0-windows</TargetFramework>
 		<!--<ImplicitUsings>enable</ImplicitUsings>-->
 		<!--<Nullable>enable</Nullable>-->
 		<IsPackable>false</IsPackable>
-		<IsTestProject>true</IsTestProject>
+		<!--<IsTestProject>true</IsTestProject>-->
 		<!--Add Rhino Directory Variable-->
 		<RhinoSystemDirectory>C:\Program Files\Rhino 8\System</RhinoSystemDirectory>
 	</PropertyGroup>
@@ -32,9 +32,9 @@
 		<ProjectReference Include="..\GHPluginRH8\GHPluginRH8.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
+	<!--<ItemGroup>
 		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
-	</ItemGroup>
+	</ItemGroup>-->
 
 	<ItemGroup>
 		<!--Add Testing.Config file to output-->
