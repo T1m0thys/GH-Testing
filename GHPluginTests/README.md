@@ -72,4 +72,4 @@
  11. Add `SetupFixture` to **Test Project**
  12. Change any other .csproj and using differences to match the [SimpleNUnitTesting]() Project
   - Failed to create CoreCLR, HRESULT: 0x80070057
-		- See [Log](/TestsLog.txt)
+		- See [Log](/GHPluginTests/TestsLog.txt)
